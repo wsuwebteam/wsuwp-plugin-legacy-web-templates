@@ -3,7 +3,7 @@
  * Plugin Name: WSUWP Plugin Legacy Web Templates
  * Plugin URI: https://github.com/wsuwebteam/wsuwp-plugin-legacy-web-templates
  * Description: Describe the plugin
- * Version: 0.0.1
+ * Version: 0.0.2
  * Requires PHP: 7.3
  * Author: Washington State University, Danial Bleile
  * Author URI: https://web.wsu.edu/
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WSUWPPLUGINWEBTEMPLATEVERSION', '0.0.1' );
+define( 'WSUWPPLUGINWEBTEMPLATEVERSION', '0.0.2' );
 
 add_action( 'after_setup_theme', 'wsuwp_plugin_legacy_web_template_init' );
 
